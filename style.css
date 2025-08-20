@@ -1,0 +1,81 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #003049;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+nav ul.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul.nav li {
+  margin: 0 1em;
+}
+
+nav ul.nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul.nav li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 50em;
+  margin: auto;
+  padding: 1em;
+}
+
+.project {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  background: #fff;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.profile-img {
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 1em auto;
+}
+
+footer {
+  background-color: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+/* Color scheme: Navy (#003049), Red (#d62828), Cream (#f77f00) */
+a {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+}
